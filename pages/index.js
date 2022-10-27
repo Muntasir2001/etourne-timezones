@@ -37,8 +37,10 @@ export default function Home() {
 				</div>
 
 				<div className='timezones'>
-					{moment.tz.names().map((tz) => (
-						<p className='timezone'>{tz}</p>
+					{moment.tz.names().map((tz, index) => (
+						<p key={index} className='timezone'>
+							{tz}
+						</p>
 					))}
 				</div>
 			</Parent>
