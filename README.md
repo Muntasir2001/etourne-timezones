@@ -1,3 +1,3 @@
 # Etourne timezones
 
-Timezones supported by Etourne.
+Timezones supported by Etourne (WIP).
