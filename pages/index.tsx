@@ -63,7 +63,7 @@ export default function Home({ tzNames }) {
 					{timezoneNames.map(
 						(tz: { value: string; label: string }, index: number) => (
 							<p key={index} className='timezone'>
-								{tz.value}
+								{tz.label}
 							</p>
 						),
 					)}
